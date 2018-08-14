@@ -58,10 +58,7 @@ module Ougai
       end
 
       def default_datetime_format
-        t = Time.new
-        f = '%FT%T.%3N'
-        f << (t.utc? ? 'Z' : '%:z')
-        f.freeze
+        "%d/%m/%Y %H:%M:%S"
       end
     end
   end

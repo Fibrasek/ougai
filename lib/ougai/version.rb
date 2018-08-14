@@ -1,3 +1,3 @@
 module Ougai
-  VERSION = "1.5.8"
+  VERSION = "1.5.8-a"
 end
